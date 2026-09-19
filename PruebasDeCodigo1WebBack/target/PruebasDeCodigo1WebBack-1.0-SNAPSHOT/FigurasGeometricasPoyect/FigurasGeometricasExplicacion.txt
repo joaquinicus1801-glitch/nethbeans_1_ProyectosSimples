@@ -1,0 +1,45 @@
+Modelo mvc basico para calculo de figuras
+
+INDICACIONES DE DESARROLLO
+Desarrollar un programa donde se pueda seleccionar una figura
+geométrica y el sistema retorne el área y perímetro de la figura 
+seleccionada. (de acuerdo a la figura seleccionada se debe solicitar 
+como parámetro los lados necesarios para poder realizar el cálculo), 
+el proyecto debe constar de al menos 05 figuras geométricas
+
+TECNOLOGIAS USADAS
+IDE: Netbeans
+CSS, JAVA Y html
+
+MODELO DE CONSTRUCCION DE SOLUCION
+-Crear un jsp con un formulario, en el habra un select con opcion de 5 
+figuras geometricas
+-se le indica al usuario que agregue los datos pertinentes en el cada input necesario
+-inputs con el que podemos ingresar los datos solicitados, en este caso 5 
+inputs 
+
+
+
+
+COMO FUNCIONA
+
+CONCEPTOS Y SINTAXIS USADOS
+Modelo MVC: JSP, SERVLET Y MODEL
+Formularios (action y method) (peticiones HTTP)
+arreglos dinamicos y estaticos
+button type sumbit (si no colocas un type en un button es sumbit por defecto)
+
+
+ERRORES DETECTADOS Y SOLUCIONES DEL PROYECTO
+ERROR: Failed to load resource: the server responded with a status of 404 ()
+tanto en link de css como e js
+
+
+ERROR DE DIRECCIONAMIENTO:
+LINEA 56, ERROR 404: Al estar dentro de una carpeta usar el direccionamiento comun
+hace que no encuentre el archivo, requestgetdispatcher cambiar el direccionamiento, recomendado usar el /carpeta/archivo.jsp
+
+mala practica para la memoria:
+FigurasController:
+entre linea 47 y 68, for(arreglo.split): al crear un arreglo temporal en cada bucle 
+reelentiza el codigo (corregido)

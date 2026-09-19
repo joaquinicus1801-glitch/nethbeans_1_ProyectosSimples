@@ -1,0 +1,23 @@
+
+header{
+    background-color: #6860d7;
+}
+header ul{
+    padding: 20px;
+}
+.menu{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu button{
+    border: 0px;
+    padding: 10px;
+    background: #5b5a6d;
+    color: white;
+    border-radius: 6px;
+    
+}
+header li{
+    list-style: none;
+}
