@@ -27,6 +27,7 @@
                          <li><button type="submit" name="opcion" value="7">lista ASCI</button></li>
                          <li><button type="submit" name="opcion" value="8">lista Objetos</button></li>
                          <li><button type="submit" name="opcion" value="9">DadosJuego</button></li>
+                            <li><button type="submit" name="opcion" value="10">Abecedario</button></li>
                     </form>
                 </ul>
 

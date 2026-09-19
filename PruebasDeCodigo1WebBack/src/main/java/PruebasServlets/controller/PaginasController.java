@@ -62,6 +62,9 @@ public class PaginasController extends HttpServlet {
               case "9":
                   response.sendRedirect("JuegoDeDadosView.jsp");
                   break;
+                case "10":
+                  response.sendRedirect("AbecedarioView.jsp");
+                  break;
         }
     }
 
