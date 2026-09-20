@@ -1,4 +1,5 @@
 PruebasModel\model\ColeccionesModel1.class
+PruebasModel\model\AbecedarioModel.class
 PruebasModel\model\juegoDeDadosModel.class
 PruebasServlets\controller\CalcularFiguraController.class
 PruebasModel\model\ThreadLocalRandom.class
@@ -11,6 +12,7 @@ PruebasModel\model\FigurasGeometricaModel.class
 PruebasServlets\controller\TablaASCIIController.class
 PruebasModel\model\ClaseStringModel.class
 PruebasServlets\controller\ClaseStringController.class
+PruebasServlets\controller\AbecedarioController.class
 PruebasServlets\controller\juegoDeDadosController.class
 PruebasServlets\controller\CalculadoraView2Controller.class
 PruebasModel\model\TablaASCIIModel.class
