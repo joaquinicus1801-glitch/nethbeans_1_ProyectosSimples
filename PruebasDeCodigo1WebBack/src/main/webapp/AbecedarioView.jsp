@@ -17,7 +17,15 @@
                 </div>
                 <button class="btn btn-primary btn-lg rounded-pill">Mostrar Abecedario</button>
             </form>
-
+            <hr>
+            <form id="AbcPost" action="AbecedarioController" method="POST">
+                <textarea row="5" class="container" placeholder="Escribe lo que quieras" required name="cajaFrase"></textarea>
+            </form>
+            <div class="d-flex gap-4 justify-content-center">
+                <button form="AbcPost" type="submit" class="btn btn-success">Posicion</button> <button type="submit" form="AbcPost" class="btn btn-warning">Descendente</button>
+            </div>
+            <p></p>
+            <p></p>
         </div>
     </div>
 
