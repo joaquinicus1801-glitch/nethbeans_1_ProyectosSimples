@@ -22,10 +22,10 @@
                 <textarea row="5" class="container" placeholder="Escribe lo que quieras" required name="cajaFrase"></textarea>
             </form>
             <div class="d-flex gap-4 justify-content-center">
-                <button form="AbcPost" type="submit" class="btn btn-success">Posicion</button> <button type="submit" form="AbcPost" class="btn btn-warning">Descendente</button>
+                <button form="AbcPost" type="submit" name="op" class="btn btn-success" value="1">Posicion</button> <button type="submit" name="op" form="AbcPost" value="2" class="btn btn-warning">Descendente</button>
             </div>
             <p>${posiciones}</p>
-            <p></p>
+            <p>${invertido}</p>
         </div>
     </div>
 
