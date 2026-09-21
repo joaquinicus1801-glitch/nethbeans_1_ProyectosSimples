@@ -24,7 +24,7 @@
             <div class="d-flex gap-4 justify-content-center">
                 <button form="AbcPost" type="submit" class="btn btn-success">Posicion</button> <button type="submit" form="AbcPost" class="btn btn-warning">Descendente</button>
             </div>
-            <p></p>
+            <p>${posiciones}</p>
             <p></p>
         </div>
     </div>
