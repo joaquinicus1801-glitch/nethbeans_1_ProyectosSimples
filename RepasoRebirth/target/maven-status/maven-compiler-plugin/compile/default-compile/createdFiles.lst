@@ -1,0 +1,17 @@
+com\jara\repasoModel\ColeccionesModel.class
+com\jara\repasorebirth\resources\JakartaEE11Resource.class
+com\jara\repasoModel\ExamenOralModel.class
+com\PA1\model\ExamenEscritoModel.class
+com\PA1\model\ExamenOralModel.class
+com\jara\repasocontroller\PA3_P3_LOGICACONTROLLER.class
+com\jara\repasocontroller\SisNotasAcademicasController.class
+com\jara\repasoModel\SueldoEmpleadoModel.class
+com\PA1\model\TrabajoPracticoModel.class
+com\jara\repasoModel\EvaluacionModel.class
+com\jara\repasoModel\PA3_P3_LOGICAMODEL.class
+com\jara\repasoModel\SueldoModel.class
+com\jara\repasorebirth\JakartaRestConfiguration.class
+com\jara\repasocontroller\SueldoController.class
+com\PA1\model\EvaluacionModel.class
+com\jara\repasocontroller\ColeccionesController.class
+com\jara\repasoModel\ListaObjetosModel.class

@@ -1,0 +1,9 @@
+com\trust\Model\TablaAsciModel.class
+com\trust\Model\AbecedarioModel.class
+com\trust\Model\AsciiModel.class
+com\trust\Controller\HomeController.class
+com\trust\Controller\AbecedarioController.class
+com\lucky\pa3javadevteam\JakartaRestConfiguration.class
+com\trust\Controller\TablaAsciController.class
+com\trust\Controller\ResultadoASCIIController.class
+com\lucky\pa3javadevteam\resources\JakartaEE11Resource.class

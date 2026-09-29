@@ -1,0 +1,7 @@
+com\mycompany\pa4\proyecto\JakartaRestConfiguration.class
+com\mycompany\pa4\proyecto\resources\JakartaEE11Resource.class
+com\PA4\model\ExamenEscritoModel.class
+com\PA4\model\ExamenOralModel.class
+com\PA4\model\EvaluacionModel.class
+com\PA4\model\TrabajoPracticoModel.class
+com\PA4\controller\EvaluacionController.class

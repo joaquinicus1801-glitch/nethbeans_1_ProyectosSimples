@@ -1,0 +1,114 @@
+
+
+body{
+     background-color: rgb(231, 235, 238);
+    margin: 0; 
+    
+}
+header{
+    background-color: skyblue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    margin: 0;
+    text-align: left;
+    padding-left: 90px;
+    font-family: monospace;
+    color: white;
+    
+}
+
+main{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+   margin-bottom: 20px;
+   
+}
+.Informacion{
+    background-color: white;
+    width: 55%;
+    height: 40%;
+    padding: 20px;
+    border-radius: 13px;
+    border: 1px solid white;
+    box-shadow: 0px 4px 15px rgb(146, 250, 250);
+    
+}
+.Descripcion{
+    text-align: center;
+    width: 40%;
+}
+.Informacion h2{
+    text-align: center;
+}
+#foto{
+    width: 70%;
+    height: 30%;
+}
+  form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.deForm{
+    flex-basis: 350px; 
+}
+#Resultado{
+    flex-basis: 100%;
+    
+}
+h2{
+    font-family: cursive;
+}
+
+footer{
+    margin-top: 20px;
+     background-color: skyblue;
+}
+footer h2{
+    height: 100%;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+}
+#ingreso-datos{
+    font-size: 20px;
+    text-align: center;
+    border-left: 3px solid gray;
+}
+#ingreso-datos > label > span{
+    display: block;
+    text-align: start;
+    margin-left: 10px;
+    
+}
+.cajita{
+    height: 5%;
+    width: 90%
+}
+input{
+    border-radius: 5px;
+}
+#ingreso-datos >label{
+    margin: 10px;
+}
+button{
+    height: 10%;
+    width: 30%;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: 0;
+   
+}
+
+#nota{
+    text-shadow:2px 3px  10px tomato;
+}

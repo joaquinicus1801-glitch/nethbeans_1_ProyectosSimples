@@ -1,0 +1,12 @@
+com\trust\Model\TemperaturaModel.class
+com\trust\Controller\FiguraController.class
+com\trust\Controller\DefaultController.class
+com\trust\Model\CarreraModel.class
+com\trust\Model\FiguraModel.class
+com\trust\Model\Trabajador.class
+com\trust\Controller\SueldoController.class
+com\trust\Controller\TemperaturaController.class
+com\trust\Model\TemperaturaConstructor.class
+com\trust\proyectoweb\resources\JakartaEE11Resource.class
+com\trust\Controller\CarreraController.class
+com\trust\proyectoweb\JakartaRestConfiguration.class

@@ -1,0 +1,15 @@
+com\PA1\model\claseStringModel.class
+com\PA1\model\PA1_FigurasGeometricasModel.class
+com\PA1\model\ConversionDeMonedaModel.class
+com\PA1\model\RomanosModel.class
+com\PA1\controller\MenurRedireccionador.class
+com\PA1\controller\RomanosController.class
+com\jara\pa1_java_dev_team_nrc_6982\resources\JakartaEE11Resource.class
+CalculoServlet.class
+com\PA1\controller\ConversionDeMonedaController.class
+com\PA1\negocio\RomanosNegocio.class
+com\jara\pa1_java_dev_team_nrc_6982\JakartaRestConfiguration.class
+com\PA1\controller\PA1_FigurasGeometricasController.class
+com\PA1\controller\claseStringController.class
+com\PA1\Interface\IRomanos.class
+com\PA1\controller\defaultcontroler.class

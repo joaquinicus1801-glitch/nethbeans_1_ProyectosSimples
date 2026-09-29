@@ -1,0 +1,12 @@
+com\pa3\model\AsciiModel.class
+com\mycompany\pa3_java_dev_team\JakartaRestConfiguration.class
+com\pa3\controller\FigurasController.class
+com\pa3\model\TablaAsciModel.class
+com\mycompany\pa3_java_dev_team\resources\JakartaEE11Resource.class
+com\pa3\controller\ResultadoASCIIController.class
+com\pa3\model\AbecedarioModel.class
+com\pa3\controller\TablaAsciController.class
+com\pa3\model\FigurasModel.class
+com\pa3\controller\AsciiModel.class
+com\pa3\controller\AbecedarioController.class
+com\pa3\controller\HomeView1Controller.class

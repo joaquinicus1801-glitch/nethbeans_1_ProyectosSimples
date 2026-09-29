@@ -1,0 +1,44 @@
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.Prin{
+    border: 1px solid black;
+    padding: 20px;
+    width: 40%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ccdecf
+}
+h1{
+    text-align: center;
+    color: Blue;
+    width: 100%
+}
+input{
+    height: 40px;
+    width: 560px;
+    border-radius: 7px;
+    border: 0;
+}
+button{
+    border-radius: 5px;
+    background-color: skyblue;
+    border: 0;
+    margin: 5px;
+    padding: 5px;
+    
+}
+button:hover{
+    background: blue;
+    transition: 1s;
+}
+
+
