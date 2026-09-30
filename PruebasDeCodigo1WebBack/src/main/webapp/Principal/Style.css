@@ -55,3 +55,9 @@ main{
     border-radius: 10px;
     box-shadow: 0px 4px 20px green ;
 }
+
+/*Notas Academicas*/
+.Tabla1{
+    background-color: rgba(237, 237, 237, 0.814);
+    border: 1px solid black;
+}

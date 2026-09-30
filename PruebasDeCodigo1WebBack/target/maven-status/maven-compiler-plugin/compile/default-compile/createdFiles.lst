@@ -12,6 +12,7 @@ PruebasModel\model\TablaASCIIModel.class
 PruebasModel\model\CalculoFiguraModel.class
 PruebasModel\model\SueldoProyect\SueldoPracticanteModel.class
 PruebasServlets\controller\ListaDeObjetosController.class
+PruebasServlets\controller\SistemaDeNotasAcademicasController.class
 PruebasServlets\controller\SueldoController.class
 PruebasModel\model\AbecedarioModel.class
 PruebasServlets\controller\CalcularFiguraController.class
@@ -19,6 +20,7 @@ PruebasModel\model\ThreadLocalRandom.class
 com\mycompany\pruebasdecodigo1webback\resources\JakartaEE11Resource.class
 PruebasModel\model\ListaDeObjetoModel.class
 PruebasServlets\controller\ColeccionesController1.class
+PruebasModel\model\SistemaDeNotasAcademicasModel.class
 PruebasModel\model\SueldoProyect\SueldoEmpleadoModel.class
 PruebasServlets\controller\AbecedarioController.class
 PruebasServlets\controller\CalculadoraView2Controller.class

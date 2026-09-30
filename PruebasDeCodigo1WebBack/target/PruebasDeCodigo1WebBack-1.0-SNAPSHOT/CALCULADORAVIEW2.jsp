@@ -4,7 +4,7 @@
     Author     : joaqu
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%> <!<!-- Crea un archivo igual al html, pero se pued escribir codigo java, recuerda -->
+<%@page contentType="text/html" pageEncoding="UTF-8"%> <!-- Crea un archivo igual al html, pero se pued escribir codigo java, recuerda -->
 <%@include file="Principal/MenuDePaginas.jsp" %>
 <main>
         <form action="CalculadoraView2Controller" method="POST"> <!-- determina a que controlador enviar en acction lo ponemos, la etiqueta form devulve envia y devuileve una respuesta?, EN METHOD LO CONRRESPOINDITENT -->
