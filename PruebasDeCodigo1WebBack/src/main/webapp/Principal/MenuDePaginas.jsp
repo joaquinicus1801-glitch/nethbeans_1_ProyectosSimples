@@ -29,6 +29,7 @@
                          <li><button type="submit" name="opcion" value="9">DadosJuego</button></li>
                             <li><button type="submit" name="opcion" value="10">Abecedario</button></li>
                              <li><button type="submit" name="opcion" value="11">Sueldo</button></li>
+                              <li><button type="submit" name="opcion" value="12">Notas</button></li>
                     </form>
                 </ul>
 

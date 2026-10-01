@@ -68,6 +68,9 @@ public class PaginasController extends HttpServlet {
                     case "11":
                   response.sendRedirect("SueldoView.jsp");
                   break;
+                   case "12":
+                  response.sendRedirect("SistemaDeNotasAcademicas.jsp");
+                  break;
         }
     }
 

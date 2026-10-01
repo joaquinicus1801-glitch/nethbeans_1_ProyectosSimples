@@ -45,7 +45,7 @@
                         <c:forEach var="item" items="${Sueldo}" varStatus="status"> 
 
                             <tr>
-                        <form action="SueldoController" method="POST">
+                        <form action="SueldoController" method="POST"> 
                             <th scope="row">${status.index + 1}</th> 
                             <td>${item.tipo}</td> 
                             <td>${item.nombres}</td>

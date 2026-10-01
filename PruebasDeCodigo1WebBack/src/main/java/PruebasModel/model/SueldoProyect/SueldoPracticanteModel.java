@@ -4,6 +4,7 @@ package PruebasModel.model.SueldoProyect;
 
 
 public class SueldoPracticanteModel extends SueldoModel {
+
     public static double sueldo = 1500;
     public static double gratificacion = 0;
     public static double bono = 0.1;
@@ -29,6 +30,7 @@ public class SueldoPracticanteModel extends SueldoModel {
     }
       public static double getSueldo() {
         return sueldo;
+        
     }
 
     public static double getBonificacion() {
