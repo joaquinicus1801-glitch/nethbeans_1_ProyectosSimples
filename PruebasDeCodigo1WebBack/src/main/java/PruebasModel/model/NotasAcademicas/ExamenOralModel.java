@@ -2,7 +2,7 @@ package PruebasModel.model.NotasAcademicas;
 
 public class ExamenOralModel extends SistemaDeNotasAcademicasModel {
 
-    public static double Bonificacion = 0.04;
+    public static double bonificacion = 0.04;
 
     public ExamenOralModel(String Curso, String tipo, int CantidadPreguntas, int validas, int tiempoRespuesta) {
         super(Curso, tipo, CantidadPreguntas, validas, tiempoRespuesta);
@@ -47,16 +47,16 @@ public class ExamenOralModel extends SistemaDeNotasAcademicasModel {
     @Override
     public double getSumaFinal() {
          
-        return (getPuntajeXtiempo() + getBonificacionXValidas()) * (1 +Bonificacion)  ;
+        return (getPuntajeXtiempo() + getBonificacionXValidas()) * (1 +bonificacion)  ;
     }
 
     public  double getBonificacion() {
-        Bonificacion = Bonificacion * 100;
-        return Bonificacion;
+        
+        return bonificacion*100;
     }
 
     public String getCurso() {
-        return Curso;
+        return curso;
     }
 
     public String getTipo() {
@@ -64,7 +64,7 @@ public class ExamenOralModel extends SistemaDeNotasAcademicasModel {
     }
 
     public int getCantidadPreguntas() {
-        return CantidadPreguntas;
+        return cantidadPreguntas;
     }
 
     public int getValidas() {

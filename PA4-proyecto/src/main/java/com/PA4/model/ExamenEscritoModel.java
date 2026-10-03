@@ -1,7 +1,13 @@
 package com.PA4.model;
 
 public class ExamenEscritoModel extends EvaluacionModel {
-
+  /*
+   s8. FUNCIONAMIENTO: 
+    esta es la clase hija el tipo de dato real del objeto
+    como vemos a los metodos de isntancia de la clase padre y abstractos se implementa aqui se usa override
+    
+   */
+    
     public ExamenEscritoModel(String codigo, String curso, int cantidadPreguntas,
                               int respuestasValidas, int tiempoRespuesta) {
         super(codigo, curso, cantidadPreguntas, respuestasValidas, tiempoRespuesta);

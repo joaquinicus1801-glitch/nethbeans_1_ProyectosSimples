@@ -5,7 +5,7 @@ package PruebasModel.model.NotasAcademicas;
 
 
 public class ExamenEscritoModel extends SistemaDeNotasAcademicasModel{
-    public static double Bonificacion = 0.03;
+    public static double bonificacion = 0.03;
     
     public ExamenEscritoModel(String Curso, String tipo, int CantidadPreguntas, int validas, int tiempoRespuesta) {
         super(Curso, tipo, CantidadPreguntas, validas, tiempoRespuesta);
@@ -42,6 +42,9 @@ public class ExamenEscritoModel extends SistemaDeNotasAcademicasModel{
                 if (validas >= 81 && validas <= 100) {
                     nBonificacion = nBonificacion * 0.02;
                 }
+                else{
+                    nBonificacion = 0;
+                }
             }
         }
         return nBonificacion;
@@ -49,17 +52,17 @@ public class ExamenEscritoModel extends SistemaDeNotasAcademicasModel{
 
     @Override
     public double getSumaFinal() {
-         
-        return (getPuntajeXtiempo() + getBonificacionXValidas()) * (1 +Bonificacion)  ;
+         System.out.println(bonificacion);
+        return (getPuntajeXtiempo() + getBonificacionXValidas()) * (1 + bonificacion)  ;
     }
 
     public  double getBonificacion() {
-        Bonificacion = Bonificacion * 100;
-        return Bonificacion;
+      
+        return bonificacion * 100;
     }
 
     public String getCurso() {
-        return Curso;
+        return curso;
     }
 
     public String getTipo() {
@@ -67,7 +70,7 @@ public class ExamenEscritoModel extends SistemaDeNotasAcademicasModel{
     }
 
     public int getCantidadPreguntas() {
-        return CantidadPreguntas;
+        return cantidadPreguntas;
     }
 
     public int getValidas() {
@@ -83,6 +86,7 @@ public class ExamenEscritoModel extends SistemaDeNotasAcademicasModel{
                 " Curso: "+ getCurso()+
                 " Preguntas: "+getCantidadPreguntas()+
                 " Respuestas: "+getTiempoRespuesta()+
+                " validas "+getValidas()+
                 " puntajeXtiempo: "+getPuntajeXtiempo()+
                 " bonificacion*valida: "+getBonificacionXValidas()+
                 " bonificacion tipo examen: "+getBonificacion()+

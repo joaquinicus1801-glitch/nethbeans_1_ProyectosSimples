@@ -27,6 +27,7 @@
                     <input name="TiempoRespuesta" type="number" class="form-control mt-1" placeholder="ingresa el tiempo de resolucion" required min="1">
                     <button class="btn btn-success" type="submit">Enviar</button>
                     <p>${Error}</p>
+                    <p>${listaObj}</p>
                     <br/>
                 </form>
                 <caption>Registro</caption>
@@ -43,30 +44,35 @@
                             <th scope="col">BONIFICACION POR PREG. VALIDAS</th>
                             <th scope="col">BONIFICACION TIEMPO EXAMEN</th>
                             <th scope="col">NOTA FINAL</th>
+                            <th scope="col">Accion </th>
 
                         </tr>
                     </thead>
                     <tbody>
 
-                        <c:forEach var="item" items="${Sueldo}" varStatus="status"> 
+                        <c:forEach var="item" items="${listaObj}" varStatus="status"> 
                             <tr>
-                        <form action="action"></form>
-                                <th scope="row">${status.index + 1}</th> 
-                                <td>${item.tipo}</td> 
-                                <td>${item.nombres}</td>
-                                <td>${item.mes}</td>
-                                <td>${item.sueldo}</td>
-                                <td>${item.bonificacion}</td>
-                                <td>${item.descuento}</td>
-                                <td>${item.neto}</td>
-                                <td>
-                                    <button class="btn btn-sm btn-danger" name="accion" value="Eliminar">Eliminar</button>
-                                    <button class="btn btn-sm btn-primary" name="accion" value="Editar">Editar</button>
+                        <form action="SistemaDeNotasController" method="DELETE">
 
-                                </td>
-                           </form>
-                            </tr>
-                        </c:forEach>  
+                        <th scope="row">${item.tipo}</th> 
+                        <td>${status.index + 1}</td> 
+                        <td>${item.curso}</td>
+                        <td>${item.cantidadPreguntas}</td>
+                        <td>${item.validas}</td>
+                        <td>${item.tiempoRespuesta}</td>
+                        <td>${item.getPuntajeXtiempo()}</td>
+                        <td>${item.getBonificacionXValidas()}</td>
+                        <td>${item.bonificacion}</td>
+                        <td>${item.getSumaFinal()}</td>
+                        <td>
+                            <button class="btn btn-sm btn-danger" name="accion" value="Eliminar">Eliminar</button>
+                            <button class="btn btn-sm btn-primary" name="accion" value="Editar">Editar</button>
+
+                        </td>
+
+                        </form>
+                        </tr>
+                    </c:forEach>  
                     </tbody>
                 </table>
             </div>

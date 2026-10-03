@@ -10,7 +10,7 @@
                 <div class="fs-3 cuadro-letras d-flex flex-wrap gap-3 justify-content-center ">
                     <c:forEach var="letra" items="${Abecedario}" varStatus="status">
                         <div>
-                            <p class="d-inline-block text-danger">${String.valueOf(letra).toUpperCase()}</p>
+                            <p class="d-inline-block text-danger">${String.valueOf(letra).toUpperCase()}</p> <!-- uso el metodo de trasnformacion -->
                             <p class="d-inline-block text-primary">${letra}</p>
                         </div>
                     </c:forEach>

@@ -2,13 +2,13 @@ package PruebasModel.model.NotasAcademicas;
 
 public abstract class SistemaDeNotasAcademicasModel {
 
-    protected String Curso, tipo;
-            int CantidadPreguntas, validas, tiempoRespuesta;
+    protected String curso, tipo;
+            int cantidadPreguntas, validas, tiempoRespuesta;
 
     public SistemaDeNotasAcademicasModel(String Curso, String tipo, int CantidadPreguntas, int validas, int tiempoRespuesta) {
-        this.Curso = Curso;
+        this.curso = Curso;
         this.tipo = tipo;
-        this.CantidadPreguntas = CantidadPreguntas;
+        this.cantidadPreguntas = CantidadPreguntas;
         this.validas = validas;
         this.tiempoRespuesta = tiempoRespuesta;
     }
