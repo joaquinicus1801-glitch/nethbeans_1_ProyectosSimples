@@ -20,20 +20,28 @@
             <scope>provided</scope>
         </dependency>
         <!--Nuevas dependencias para utilizar foreach en la web-->
-           <!--API de especificacion JSTL  de jakarta-->
-              <!--API de especificacion JSTL  de jakarta-->
+        <!--API de especificacion JSTL  de jakarta-->
+        <!--API de especificacion JSTL  de jakarta-->
         <dependency>
             <groupId>jakarta.servlet.jsp.jstl</groupId>
             <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
             <version>3.0.0</version>
         </dependency>
-         <!--Implementacion oficial unificada compatible con tomcat 11-->
-         <dependency>
-             <groupId>org.glassfish.web</groupId>
-             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
-             <version>3.0.1</version>        
-         </dependency>
-         <!--Hasta aqui son las dependencias para usar foreach en la web-->
+        <!--Implementacion oficial unificada compatible con tomcat 11-->
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>3.0.1</version>        
+        </dependency>
+        <!--Hasta aqui son las dependencias para usar foreach en la web-->
+         
+        <!--Driver JDCB de Microsoft oficial para sql server-->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>13.6.0.jre11</version>
+        </dependency>
+         
     </dependencies>
     
      

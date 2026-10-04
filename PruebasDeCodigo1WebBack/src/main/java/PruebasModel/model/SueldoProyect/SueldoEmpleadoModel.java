@@ -2,7 +2,7 @@ package PruebasModel.model.SueldoProyect;
 
 public class SueldoEmpleadoModel extends SueldoModel {
 
-    public static double sueldo = 3500;
+    private static double sueldo = 3500; 
     public static double gratificacion = 1.00;
     public static double bono = 0.1;
     public static double bonificacion = sueldo*gratificacion+sueldo*bono;
@@ -68,5 +68,7 @@ public class SueldoEmpleadoModel extends SueldoModel {
     public String getMes() {
         return mes;
     }
+
+
 
 }

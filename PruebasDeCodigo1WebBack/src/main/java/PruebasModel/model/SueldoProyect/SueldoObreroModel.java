@@ -4,7 +4,7 @@ package PruebasModel.model.SueldoProyect;
 
 
 
-public class SueldoObreroModel extends SueldoModel{
+public class SueldoObreroModel extends SueldoModel implements SueldoInterface{
     public static double sueldo = 2500;
     public static double gratificacion = 0.50;
     public static double bono = 0.1;
@@ -75,4 +75,16 @@ public class SueldoObreroModel extends SueldoModel{
     public String getMes() {
         return mes;
     }
+    
+    private double calcularDuplicar(){ //es un metodo private nadie sabe que hizo apra duplicar, eso es encapsulamiento
+        //private es un metodo local?
+        return neto *2;
+    }
+
+    @Override
+    public double duplicar() { //solo muestra los el resultado no el como asi que puede ser public
+       return calcularDuplicar();
+    }
+
+    
 }

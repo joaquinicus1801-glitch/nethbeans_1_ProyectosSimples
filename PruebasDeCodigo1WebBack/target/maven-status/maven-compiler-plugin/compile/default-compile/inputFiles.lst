@@ -1,5 +1,7 @@
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\com\mycompany\pruebasdecodigo1webback\JakartaRestConfiguration.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\com\mycompany\pruebasdecodigo1webback\resources\JakartaEE11Resource.java
+C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasDatos\dato\ProductoDatos.java
+C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasInterface\ProductoInterface.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\AbecedarioModel.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\CalculadoraViewModel.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\CalculoFiguraModel.java
@@ -12,7 +14,9 @@ C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\Pro
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\NotasAcademicas\ExamenOralModel.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\NotasAcademicas\ExamenPracticoModel.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\NotasAcademicas\SistemaDeNotasAcademicasModel.java
+C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\ProductoProyect\ProductoModel.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\SueldoProyect\SueldoEmpleadoModel.java
+C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\SueldoProyect\SueldoInterface.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\SueldoProyect\SueldoModel.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\SueldoProyect\SueldoObreroModel.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasModel\model\SueldoProyect\SueldoPracticanteModel.java
@@ -27,6 +31,7 @@ C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\Pro
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasServlets\controller\juegoDeDadosController.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasServlets\controller\ListaDeObjetosController.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasServlets\controller\PaginasController.java
+C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasServlets\controller\ProductoController.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasServlets\controller\SistemaDeNotasAcademicasController.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasServlets\controller\SueldoController.java
 C:\Users\joaqu.LAPTOP-FTJE5DUT\Desktop\PROGRAMACION_LOCAL\PROYECTOS_Netbeans\ProyexJoaquin1\PruebasDeCodigo1WebBack\src\main\java\PruebasServlets\controller\TablaASCIIController.java

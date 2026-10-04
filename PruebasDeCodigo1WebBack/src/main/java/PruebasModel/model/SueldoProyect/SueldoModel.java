@@ -2,7 +2,7 @@
 package PruebasModel.model.SueldoProyect;
 
 
-public abstract class SueldoModel {
+public abstract class SueldoModel  {
     protected String tipo, nombres,mes; //atributos que seran heredados tiene que ser protected, la clase debe ser encapsulada
     //debemos volverlo solo lectura, proteje
 

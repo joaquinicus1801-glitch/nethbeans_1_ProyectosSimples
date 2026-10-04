@@ -56,5 +56,7 @@ public class SueldoPracticanteModel extends SueldoModel {
     public String getMes() {
         return mes;
     }
+
+   
   
 }
