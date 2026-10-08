@@ -31,6 +31,7 @@
                              <li><button type="submit" name="opcion" value="11">Sueldo</button></li>
                               <li><button type="submit" name="opcion" value="12">Notas</button></li>
                               <li><button type="submit" name="opcion" value="13">Producto</button></li>
+                               <li><button type="submit" name="opcion" value="14">A</button></li>
                     </form>
                 </ul>
 

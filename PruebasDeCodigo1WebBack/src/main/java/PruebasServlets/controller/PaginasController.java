@@ -74,6 +74,9 @@ public class PaginasController extends HttpServlet {
                   case "13":
                   response.sendRedirect("ProductoViewS15.jsp");
                   break;
+                    case "14":
+                  response.sendRedirect("SistemaDeFacturacion_Repuestos.jsp");
+                  break;
         }
     }
 

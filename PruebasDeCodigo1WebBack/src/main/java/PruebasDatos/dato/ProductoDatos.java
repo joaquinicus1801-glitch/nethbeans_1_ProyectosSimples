@@ -26,10 +26,10 @@ public class ProductoDatos implements ProductoInterface {
  /*Cadena de coneccio*/
     private static final String URL = "jdbc:sqlserver://LAPTOP-FTJE5DUT\\SQL1:1433;" //el puerto 1433 es por donde sale sql
             + "databaseName=ProductoBD;"
-            + "encrypt=Mandatory;"
+            + "encrypt=true;"
             + "trustServerCertificate=true;";
-    private static final String USER = "LAPTOP-FTJE5DUT\\joaqu";
-    private static final String PASSWORD = "Coriris1213.*";
+    private static final String USER = "JaraBD_1";
+    private static final String PASSWORD = "Coriris*.1213.*";
 
     /*Con lo de arriba estamos aperturando sql 
     
