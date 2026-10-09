@@ -1,3 +1,4 @@
+PruebasInterface\RepuestoInterface.class
 PruebasModel\model\ColeccionesModel1.class
 PruebasModel\model\juegoDeDadosModel.class
 PruebasModel\model\SueldoProyect\SueldoInterface.class
@@ -8,6 +9,7 @@ PruebasServlets\controller\FigurasGeometricasController.class
 PruebasModel\model\FigurasGeometricaModel.class
 PruebasModel\model\ProductoProyect\ProductoModel.class
 PruebasServlets\controller\TablaASCIIController.class
+PruebasModel\model\NotasAcademicas\RepuestoModel.class
 PruebasModel\model\SueldoProyect\SueldoObreroModel.class
 PruebasModel\model\ClaseStringModel.class
 PruebasModel\model\NotasAcademicas\ExamenPracticoModel.class
@@ -16,6 +18,7 @@ PruebasServlets\controller\juegoDeDadosController.class
 PruebasModel\model\TablaASCIIModel.class
 PruebasModel\model\CalculoFiguraModel.class
 PruebasModel\model\SueldoProyect\SueldoPracticanteModel.class
+PruebasServlets\controller\RepuestosController.class
 PruebasServlets\controller\ListaDeObjetosController.class
 PruebasServlets\controller\SistemaDeNotasAcademicasController.class
 PruebasServlets\controller\SueldoController.class
@@ -28,6 +31,7 @@ PruebasModel\model\ListaDeObjetoModel.class
 PruebasServlets\controller\ColeccionesController1.class
 PruebasDatos\dato\ProductoDatos.class
 PruebasModel\model\SueldoProyect\SueldoEmpleadoModel.class
+PruebasDatos\dato\RepuestoDatos.class
 PruebasServlets\controller\AbecedarioController.class
 PruebasServlets\controller\CalculadoraView2Controller.class
 PruebasModel\model\NotasAcademicas\ExamenEscritoModel.class

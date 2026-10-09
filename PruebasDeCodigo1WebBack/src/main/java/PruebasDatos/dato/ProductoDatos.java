@@ -23,7 +23,7 @@ public class ProductoDatos implements ProductoInterface {
     
      */
 
- /*Cadena de coneccio*/
+ /*Cadena de coneccion son atributos*/
     private static final String URL = "jdbc:sqlserver://LAPTOP-FTJE5DUT\\SQL1:1433;" //el puerto 1433 es por donde sale sql
             + "databaseName=ProductoBD;"
             + "encrypt=true;"
